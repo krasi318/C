@@ -12,9 +12,7 @@ printf("A = ");
 scanf("%f", &a);
 printf("B = ");
 scanf("%f", &b);
-printf("C = ");
-scanf("%f", &c);
-if(a <= 0 || b <= 0 || c <= 0)
+if(a <= 0 || b <= 0 )
 {
 printf("Not valid recktangle\n");
 return 1;
